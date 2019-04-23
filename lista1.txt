@@ -1,0 +1,21 @@
+Projeto e Análise de Algoritmos
+Exercícios Resolvidos
+
+1) Sim. Para resolver o problema é necessário que todos os valores pertencentes a entrada sejam avaliados, ou seja, podemos dizer que qualquer algoritmo proposto será no mínimo Ω (n).
+
+2) Sim. Apesar do algoritmo ser exponencial, quando o valor de n é pequeno, esta função produz um tempo de complexidade menor do que a função do algoritmo A. Por exemplo para valores de n iguais 2 ... 10 ....20
+
+3)Sim. O algoritmo é ótimo, pois o acesso à chave é direto.
+
+4) A notação teta indica que a função f(n) está limite inferior. Se f(n) é teta de g(n) que dizer
+em g(n) se somente se f(n)<= g(n)* c1, onde c1 n>m, ou seja f(n)= O(g(n)). O mesmo é válido para
+entre um limite superior e um que f(n) é tem limite superior é uma constante qualquer para
+notação Ω .
+
+5) A escolha do parâmetro é n, que indica a quantidade de elementos do vetor. A operação básica é a comparação, pois esta domina a o loop interno e a complexidade é dada por 3(n-1). O algoritmo é da ordem de complexidade O(n). Como n é O(n 2 ), podemos dizer que o algoritmo é O(n 2 ), entretanto estamos interessados sempre no limite mínimo superior, logo é melhor dizer que o algoritmo é O(n).
+
+6) O problema desta medida é a definição da amostra e como serão avaliados os parâmetros. Por exemplo, se utilizarmos a função time para calcular o tempo, podemos obter valores diferentes para sistemas operacionais diferentes. Ainda, deve-se pensar que o cálculo do tempo não pode incluir o tempo em que o processo não esteve escalonado. Porém, este método é muito interessante quando se deseja comparar dois ou mais algoritmo, quando se deseja saber o comportamento do algoritmo para determinadas bases de dados.
+
+7) Utilizando a estrutura de árvores binária qualquer elemento a uma complexidade logn +1.
+
+8) Porque normalmente desejamos saber qual o limite máximo gasto para executar o um determinado algoritmo.
